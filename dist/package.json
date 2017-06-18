@@ -1,0 +1,25 @@
+{
+    "name": "spotify-curator",
+    "version": "1.0.0",
+    "description": "Use the spotify API to maintain/create/update playlists",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mjamazing/spotify-curator.git"
+    },
+    "author": "",
+    "license": "",
+    "bugs": {
+        "url": "https://github.com/mjamazing/spotify-curator/issues"
+    },
+    "homepage": "https://github.com/mjamazing/spotify-curator#readme",
+    "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-bower": "^0.0.13",
+        "gulp-yarn": "^1.0.0",
+        "spotify-web-api-js": "^0.22.0"
+    }
+}
