@@ -22,4 +22,4 @@ gulp.task('js', function() {
 });
 
 // Default Task
-gulp.task('default', ['yarn', 'js']);
+gulp.task('default', ['js']);
