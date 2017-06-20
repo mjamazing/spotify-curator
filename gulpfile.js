@@ -1,5 +1,6 @@
 // Include Gulp
 var gulp = require('gulp');
+var del = require('del');
 
 var yarn = require('gulp-yarn');
 
@@ -10,10 +11,9 @@ gulp.task('yarn', function() {
         }));
 });
 
-gulp.task('clean', [], function() {
-    console.log("Clean all files in build folder");
-
-    return gulp.src("build/*", { read: false }).pipe(clean());
+gulp.task('clean', function() {
+    console.log("Delete the build folder");
+    del(['build/**/*']);
 });
 
 gulp.task('js', function() {
