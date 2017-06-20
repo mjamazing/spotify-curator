@@ -20,6 +20,11 @@
     "gulp": "^3.9.1",
     "gulp-bower": "^0.0.13",
     "gulp-yarn": "^1.0.0",
-    "spotify-web-api-node": "^2.4.0"
+    "spotify-web-api-node": "^2.4.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1"
   }
 }
