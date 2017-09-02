@@ -21,5 +21,8 @@ gulp.task('js', function() {
         .pipe(gulp.dest('build'));
 });
 
+// Alias build to js
+gulp.task('build', ['js']);
+
 // Default Task
 gulp.task('default', ['js']);
