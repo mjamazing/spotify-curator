@@ -5,8 +5,6 @@ var spotifyApi = new SpotifyWebApi({
     clientSecret: process.env.SPOTIFY_CLIENT_SECRET,
 });
 
-console.log("In the index");
-
 spotifyApi.clientCredentialsGrant()
     .then(function(data) {
             // Save the access token so that it's used in future calls
